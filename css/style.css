@@ -1,0 +1,264 @@
+html, body {
+    height: 100%;
+}
+
+.menu {
+    position: relative;
+    width: 1903px;
+    height: 80px;
+    left: -8px;
+    top: -8px;
+    background-color: white;
+}
+
+.logo {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    margin-top: 0px;
+    margin-left: 300px;
+}
+
+.header__nav {
+    position: absolute;
+    width: 720px;
+    height: 15px;
+    left: 765px;
+    top: 15px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.header__list {
+    display: flex;
+    list-style-type: none;
+    gap: 25px;
+}   
+
+.header__link {
+    color: black;
+    text-decoration: none;
+}
+
+.kontaktnyy__telefon {
+    position: absolute;
+    width: 200px;
+    height: 15px;
+    left: 1380px;
+    top: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #212121;
+}
+
+.telefon {
+    position: absolute;
+    width: 200px;
+    height: 15px;
+    left: 1365px;
+    top: 30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 16px;
+    color: black;
+}
+
+.glav-str {
+    position: relative;
+    width: 1903px;
+    height: 800px;
+    margin-left: -8px;
+    margin-top: -8px;
+
+}
+
+.glav-str {
+    background-color: #ffffff;
+}
+
+.glavstr {
+    position: absolute;
+    width: 100%;
+    height: fit-content;
+}
+
+.glavstr img {
+    position: absolute;
+    width: 700px;
+    height: 500px;
+
+    left: 1100px;
+    top: 150px;
+    border-radius: 15px;
+}
+
+.glav-str .glavstr .tekst1 {
+    position: absolute;
+    width: 900px;
+    height: 40px;
+    left: 400px;
+    top: 180px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 70px;
+    color: #000000;
+}
+
+.glav-str .glavstr .tekst2 {
+    position: absolute;
+    width: 700px;
+    height: 40px;
+    left: 402px;
+    top: 440px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+
+
+
+.event-flex {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.spisok__eventov {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 400px;
+    grid-auto-columns: auto;
+    gap: 4vw;
+    padding-bottom: 4vw;
+}
+
+
+
+.spisok__eventov2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 400px;
+    grid-auto-columns: auto;
+    gap: 4vw;
+}
+
+.event {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.event img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+    transform: scale(1);
+    transition: transform 2s;
+    filter: brightness(60%);
+}
+
+.event:hover img{
+    transform: scale(1.2);
+}
+
+.event1 {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.event1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+    transform: scale(1);
+    transition: transform 2s ;
+    filter: brightness(60%);
+}
+
+.event1:hover img{
+    transform: scale(1.2);
+}
+
+
+
+.event .tekst6 {
+    padding-top: 2vw;
+    color: #7e0f6b;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 70px;
+    margin: 0;
+}
+
+.event .tekst7 {
+    text-align: center;
+    color: #000000;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    padding-bottom: 2vw;
+}
+
+
+
+footer {
+
+
+    background-color: #ffffff;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    }
+
+    .footer {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 2vw;
+    }
+    .footer__list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 2vw;
+        margin: 0;
+    }
+    .footer__link {
+        text-decoration: none;
+        text-align: center;
+        color: #000000;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+    }
+    
+    
